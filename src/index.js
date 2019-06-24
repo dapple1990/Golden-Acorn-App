@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AcornRedux from './app';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import reducer from './reducer/rootReducer';
 import { BrowserRouter } from 'react-router-dom'
-import App from './app';
 import AcornReact from './components/acornReact';
+import AcornRedux from './components/acornRedux';
 import { Route } from "react-router-dom";
 import NavBar from './components/navBar';
 
